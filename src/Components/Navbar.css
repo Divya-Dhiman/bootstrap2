@@ -1,0 +1,27 @@
+.bi::before,
+[class*='bi-']::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+[type=button]:not(:disabled) {
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+
+}
