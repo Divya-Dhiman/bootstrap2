@@ -2,9 +2,8 @@ import React from 'react'
 
 function pageHeader() {
   return (
-    <div>
-      <section class="py-5 py-lg-8">
-            <div class="container">
+    <>
+            <div class="container py-5 py-lg-8">
                <div class="row">
                   <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
                      <div class="text-center">
@@ -20,8 +19,7 @@ function pageHeader() {
                   </div>
                </div>
             </div>
-         </section>
-    </div>
+    </>
   )
 }
 
